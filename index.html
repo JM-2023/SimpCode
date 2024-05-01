@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpCode: Simplifying Programming for Beginners</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #5a5a5a;
+        }
+        h1 {
+            border-bottom: 2px solid #5a5a5a;
+            padding-bottom: 10px;
+        }
+        h2 {
+            border-bottom: 1px solid #eeeeee;
+            padding-top: 20px;
+        }
+        code, pre {
+            background-color: #e0e0e0;
+            border: 1px solid #cbcbcb;
+            display: block;
+            padding: 10px;
+            margin-top: 5px;
+            overflow-x: auto;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to SimpCode</h1>
+        <p><strong>Name:</strong> SimpCode</p>
+        <p><strong>Purpose:</strong> Designed to make programming more accessible to beginners by simplifying syntax and reducing the complexity of common programming constructs.</p>
+
+        <h2>Target Domain and Problem Solving</h2>
+        <p><strong>Target Domain:</strong> Education and beginner programming.</p>
+        <p><strong>Problem It Solves:</strong> Reduces the learning curve for new programmers by using clear, intuitive syntax and straightforward programming concepts.</p>
+
+        <h2>Design and Syntax</h2>
+        <p>Simple and easy to understand syntax:</p>
+        <ul>
+            <li><strong>Variables:</strong> Declare with <code>ASSIGN var=value</code></li>
+            <li><strong>Control Structures:</strong> Use plain English terms like <code>WHILE condition DO ENDWHILE</code> <code>IF condition THEN</code> <code>ELSE IF condition THEN</code> <code>PRINT</code><code>FOR condition increment/decrement ENDFOR</code></li>
+        </ul>
+
+        <h2>Example Programs</h2>
+        <h3>1. hello_world.simp</h3>
+        <code>PRINT "Hello, World"</code>
+
+        <h3>2. basic_calculation.simp</h3>
+        <pre>
+ASSIGN a=5
+ASSIGN b=10
+ASSIGN sum=a+b
+PRINT "The sum is"
+PRINT sum</pre>
+
+        <h3>3. while_loop.simp</h3>
+        <pre>
+ASSIGN X=1
+WHILE X<=100 DO
+IF X%3==0 AND X%5==0 THEN PRINT "FizzBuzz"
+ELSE IF X%3==0 THEN PRINT "Fizz"
+ELSE IF X%5==0 THEN PRINT "Buzz"
+ELSE PRINT X
+ASSIGN X=X+1
+ENDWHILE
+IF X==101 THEN PRINT "FINISH"</pre>
+
+        <h3>4. for_loop.simp</h3>
+        <pre>
+ASSIGN X=1
+FOR X<=100 X=X+1 DO
+IF X%3==0 AND X%5==0 THEN PRINT "FizzBuzz"
+ELSE IF X%3==0 THEN PRINT "Fizz"
+ELSE IF X%5==0 THEN PRINT "Buzz"
+ELSE PRINT X
+ENDFOR
+IF X==101 THEN PRINT "FINISH"</pre>
+
+        <h2>Ecosystem</h2>
+        <p><strong>Development Tools:</strong> SimpCode IDE: An integrated development environment tailored for beginners, with code suggestions, auto-completion, and a built-in debugger.</p>
+        <p><strong>Library Ecosystem:</strong> Basic libraries for math, strings, and file handling to help beginners implement common functionalities easily.</p>
+
+        <h2>Challenges and Limitations</h2>
+        <p><strong>Challenges:</strong> Balancing simplicity with functional depth, performance considerations with higher-level abstractions, and adoption in educational institutions.</p>
+        <p><strong>Limitations:</strong> Not suitable for system-level programming or applications requiring advanced optimizations due to its simplified nature.</p>
+    </div>
+</body>
+</html>
